@@ -1,16 +1,17 @@
-import { Alert } from 'reactstrap';
+import { Alert, Button } from 'reactstrap';
 import { Link} from 'react-router-dom';
+import '../css/style.css'
 
 function LoginFailedComponent() {
     return(    
-        <div>
-            <Alert style={{color:'red'}}>
-                Login Unsuccessfull
-            </Alert>
-
-            <li> 
-                <Link to="/">Login</Link> 
-            </li> 
+        <div className="center">
+            <h1 style={{color:'red'}}>
+                Login Unsuccessfull!
+            </h1>
+            <br />
+            
+            <Link color="primary" to="/">Login</Link> 
+      
         </div>
     )
   }

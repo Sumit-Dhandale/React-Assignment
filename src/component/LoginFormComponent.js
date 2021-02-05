@@ -1,5 +1,8 @@
 import React from "react"
 import { useHistory } from 'react-router-dom';
+import { Button } from 'reactstrap';
+
+import '../css/loginform.css'
 
 const axios = require('axios');
 
@@ -51,6 +54,7 @@ const LoginFormComponent = () => {
 
   return (
     <>
+    <div className="form">
       <label>
         Username
         <input type="email" name="username" onChange={handleChangeUsername} />
@@ -61,7 +65,8 @@ const LoginFormComponent = () => {
         <input type="password" name="password" onChange={handleChangePassword} />
       </label>
       <br />
-      <button onClick={handleSubmit}>Submit</button>
+      <Button color="danger" onClick={handleSubmit}>Submit</Button>
+    </div>
     </>
   );
 };

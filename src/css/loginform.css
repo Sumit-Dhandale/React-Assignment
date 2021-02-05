@@ -1,0 +1,16 @@
+/* .form {
+  padding: 10px;
+  margin: 10px;
+  background: rgb(235, 238, 240);
+  border-radius: 10px;
+} */
+
+.form {
+  margin: auto;
+  margin-top: 150px;
+  width: 250px;
+  border-radius: 10px;
+  background: rgb(235, 238, 240);
+  padding: 30px;
+  /* padding: 70px 0; */
+}

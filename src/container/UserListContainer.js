@@ -1,7 +1,7 @@
 import axios from "axios";
 import {useEffect,useState} from "react"
 import UserListComponent from "../component/UserListComponent"
-import "../index.css"
+import "../css/user.css"
 
 function UserListContainer() {
 
